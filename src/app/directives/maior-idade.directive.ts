@@ -1,6 +1,5 @@
 import { Directive } from '@angular/core';
 import { AbstractControl, NG_VALIDATORS, ValidationErrors, Validators } from '@angular/forms';
-import { AnyARecord } from 'dns';
 
 @Directive({
   selector: '[maiorIdadeValidator]',
